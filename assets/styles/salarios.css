@@ -1,0 +1,70 @@
+.salarios__container {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 2rem;
+    padding: 0 21rem;
+}
+
+.salarios__cargo {
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.cargo__dev {
+    margin-top: 4rem ;
+}
+
+.salarios__design {
+    align-items: left;
+    border: 2px solid var(--cinza-borda);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 24px 28px 24px;
+}
+
+.salarios__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 1.125rem;
+}
+
+.salario__texto {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.salarios__descricao {
+    color: var(--cinza-medio);
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1.5rem 0 0 0;
+}
+
+@media screen and (max-width: 1124px) {
+    .salarios__container {
+        padding: 0 6rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .salarios__container {
+        padding: 0 2rem;
+        margin: 0;
+    }
+
+    .salarios__design {
+        padding: 0;
+    }
+
+    .salario__texto {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+

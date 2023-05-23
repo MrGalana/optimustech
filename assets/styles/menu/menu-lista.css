@@ -1,0 +1,32 @@
+.menu {
+    display: none;
+    justify-content: space-between;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; 
+}
+
+.menu__lista {
+    margin: 0 15rem 0 2rem;
+}
+
+.menu__lista-botoes {
+    display: none;
+}
+
+@media screen and (min-width: 500px) {
+    .menu__lista-botoes {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1124px) {
+    .menu {
+        display: block;
+    }
+}
+

@@ -1,0 +1,47 @@
+.comentario__container {
+    align-items: center;
+    font-family: var(--fonte-primaria);
+    justify-items: center;
+    background-color: var(--vermelho-background);
+    padding: 4rem;
+    margin: 6rem 5rem 10rem 5rem;
+    text-align: center;
+}
+
+.comentario__questao {
+    color: var(--vermelho);
+    font-weight: 600;
+    font-size: 1.1428rem;
+}
+
+.comentario__resposta {
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 2.25rem;
+}
+
+.comentario__imagem {
+    width: auto;
+}
+
+.comentario__usuario {
+    color: var(--cinza-escuro);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.comentario__funcao {
+    color: var(--cinza-medio);
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+@media screen and (max-width: 500px) {
+    .comentario__container {
+        margin: 6rem 1rem;
+    }
+
+    .comentario__resposta {
+    font-size: 1.5rem;
+}
+}

@@ -1,0 +1,34 @@
+.talentos__container {
+    align-items: center;
+    font-family: var(--fonte-primaria);
+    justify-items: center;
+    margin: 12em 2em 5em 2em;
+    text-align: center;
+}
+
+.talentos__caixa-informativa {
+    background-color: var(--vermelho-background);
+    border-radius: 16px;
+    color: var(--vermelho);
+    font-weight: 500;
+    font-size: 0.875;
+    padding: 4px 12px;
+}
+
+.talentos__titulo {
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin-top: 1.25rem;
+}
+
+.talentos__descricao {
+    color: var(--cinza-medio);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.talentos__imagem {
+    width: 90%;
+    margin: 4rem 0;
+}
